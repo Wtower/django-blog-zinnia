@@ -28,7 +28,7 @@ class EntryAdmin(admin.ModelAdmin):
     """
     Admin for Entry model.
     """
-    form = EntryAdminForm
+    # form = EntryAdminForm
     date_hierarchy = 'publication_date'
     fieldsets = (
         (_('Content'), {
